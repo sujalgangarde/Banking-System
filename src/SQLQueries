@@ -6,7 +6,7 @@ CREATE DATABASE banking_system;
 USE banking_system;
 
 CREATE TABLE accounts (
-    account_number BIGINT PRIMARY KEY NOT NULL,
+    account_number BIGINT PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     balance DECIMAL(10, 2) NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE accounts (
 
 CREATE TABLE user (
     full_name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) PRIMARY KEY NOT NULL,
+    email VARCHAR(255) PRIMARY KEY,
     password VARCHAR(255) NOT NULL
 );
 
