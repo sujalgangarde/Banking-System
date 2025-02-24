@@ -29,7 +29,7 @@ Welcome to the **Banking System Application**, a simple yet robust banking manag
 ## 📌 How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/banking-system.git
+   git clone https://github.com/sujalgangarde/Banking-System.git
    ```
 2. Open **IntelliJ IDEA** and load the project.
 3. Configure your **MySQL database** and update the credentials in `BankingApp.java`.
